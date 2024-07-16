@@ -28,15 +28,15 @@
     <h1>Register Here</h1>
     <form action="login.html" method="post">
         <label for="UserID">User ID:</label>
-        <input type="text" placeholder="Create Your User ID"><br>
+        <input name="userid" type="text" placeholder="Create Your User ID" required><br>
         <label for="password">Password:</label>
-        <input type="password" placeholder="Create A Strong Password"><br>
+        <input name="password" type="password" placeholder="Create A Strong Password" required><br>
         <label for="password-confirm">Confirm Your Password:</label>
-        <input type="password" placeholder="Confirm your password"><br>
+        <input name="password-confirm" type="password" placeholder="Confirm your password" required><br>
         <label for="email">Email:</label>
-        <input type="email" placeholder="Insert your Email"><br>
+        <input name="email" type="email" placeholder="Insert your Email" required><br>
         <label for="semester">Select Your Semester:</label>
-        <select name="" id="">
+        <select name="semester" id="" required>
             <option value="1">Semester 1</option>
             <option value="2">Semester 2</option>
         </select><br>
