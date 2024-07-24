@@ -19,20 +19,18 @@
             <li>
                 <a href="login.html">Login</a>
             </li>
-            <li>
-                <a href="dashboard.html">Dashboard</a>
-            </li>
         </ul>
     </nav>
     <div class="reg">
     <h1>Login</h1>
-    <form action="dashboard.html" method="get">
+    <form action="" method="post">
         <label for="UserID">User ID:</label>
-        <input name="UserID" type="text" placeholder="Your User ID" required><br>
+        <input name="UserID" type="text" placeholder="Your User ID" id="userid"><br>
         <label for="password">Password:</label>
-        <input name="password" type="password" placeholder="Your Password" required><br>
-        <button type="submit">Login</button>
+        <input name="password" type="password" placeholder="Your Password" id="password"><br>
     </form>
+    <input type="submit" value="Login" id="login" onclick="lgncheck()">
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
