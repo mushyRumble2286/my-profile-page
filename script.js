@@ -8,7 +8,7 @@ function lgncheck(){
     } 
     else if (userId == correctUsername , password == correctPassword) {
         alert("Login successful");
-        window.location.href = "dashboard.html";
+        window.location.replace("dashboard.html");
     } 
     else {
         alert("Wrong username or password");
